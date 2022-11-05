@@ -29,6 +29,7 @@ body {
 @media screen and (max-width: 37.5rem) {
   .main {
     max-height: 108.8rem;
+    margin: 0 auto;
   }
 }
 .content {
@@ -187,7 +188,39 @@ body {
   flex-grow: 1;
 }
 
+#background {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
 #book__design {
+  max-width: 115.2rem;
+  max-height: 7.6rem;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#contact {
   max-width: 115.2rem;
   max-height: 7.6rem;
   background: #eaecf0;
